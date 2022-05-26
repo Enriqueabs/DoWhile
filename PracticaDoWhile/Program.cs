@@ -10,7 +10,7 @@ namespace PracticaDoWhile
     {
         static void Main(string[] args)
         {
-            decimal num1, num22, resultado = 0M;
+            decimal num1,num22,resultado =0M;
             int opcion;
 
             do
@@ -24,13 +24,13 @@ namespace PracticaDoWhile
                 opcion = Convert.ToInt32(Console.ReadLine());
                 Console.ReadKey();
             }
-            while ((opcion < 1) || (opcion > 2));
+            while ((opcion < 1) || (opcion > 4));
 
             Console.Write("Dame el primer numero: ");
             num1= Convert.ToDecimal(Console.ReadLine());
             Console.ReadKey();
 
-            while ((opcion < 1) || (opcion > 2)) ;
+            while ((opcion < 1) || (opcion > 4)) ;
             Console.Write("Dame el segundo numero: ");
             num22= Convert.ToDecimal(Console.ReadLine());
             Console.ReadKey();
